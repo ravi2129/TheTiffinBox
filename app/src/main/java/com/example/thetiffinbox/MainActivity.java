@@ -19,7 +19,7 @@ ImageView logo;
         logo=findViewById(R.id.appLogo);
         Animation myAnim= AnimationUtils.loadAnimation(MainActivity.this,R.anim.mytransition);
         logo.startAnimation(myAnim);
-        final Intent i=new Intent(MainActivity.this,SwipeUser.class);
+        final Intent i=new Intent(MainActivity.this,IntroActivity.class);
 
         Thread timer=new Thread(){
             public void run (){

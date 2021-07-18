@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/applogo"
         android:supportsRtl="true"
         android:theme="@style/Theme.TheTiffinBox">
-        <activity android:name=".SwipeUser"></activity>
+        <activity android:name=".IntroActivity"></activity>
+        <activity android:name=".SwipeUser" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
