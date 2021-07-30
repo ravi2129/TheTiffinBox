@@ -9,7 +9,10 @@
         android:roundIcon="@drawable/applogo"
         android:supportsRtl="true"
         android:theme="@style/Theme.TheTiffinBox">
-        <activity android:name=".IntroActivity"></activity>
+        <activity android:name=".loginUser"></activity>
+        <activity android:name=".UserWelcomeActivity" />
+        <activity android:name=".DashBoardActivity" />
+        <activity android:name=".IntroActivity" />
         <activity android:name=".SwipeUser" />
         <activity android:name=".MainActivity">
             <intent-filter>

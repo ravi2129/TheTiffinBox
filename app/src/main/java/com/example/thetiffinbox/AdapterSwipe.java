@@ -56,6 +56,8 @@ public class AdapterSwipe extends PagerAdapter {
             @Override
             public void onClick(View v) {
                 if (position == 0) {
+                    Intent i=new Intent(context,UserWelcomeActivity.class);
+                    context.startActivity(i);
 
                 } else if (position == 1) {
 

@@ -28,6 +28,7 @@
         android:background="@drawable/buttonbg"
         android:text="Next"
         android:textColor="#000000"
+        app:backgroundTint="#DBAF44"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -49,7 +50,6 @@
     </com.google.android.material.tabs.TabLayout>
 
     <Button
-        android:visibility="invisible"
         android:id="@+id/btn_get_started"
         android:layout_width="132dp"
         android:layout_height="wrap_content"
@@ -61,6 +61,8 @@
         android:background="@drawable/buttonbg"
         android:text="Get Started"
         android:textColor="#000000"
+        android:visibility="invisible"
+        app:backgroundTint="#DBAF44"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -76,6 +78,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:text="Skip"
+        android:fontFamily="@font/regularsemibold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
